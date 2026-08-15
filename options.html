@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      padding: 16px;
+      min-width: 320px;
+      color: #202124;
+    }
+    h1 { font-size: 15px; margin: 0 0 12px; }
+    .row { margin-bottom: 14px; font-size: 13px; }
+    kbd {
+      background: #f1f3f4;
+      border: 1px solid #dadce0;
+      border-radius: 4px;
+      padding: 2px 7px;
+      font-family: inherit;
+      font-size: 12px;
+    }
+    button {
+      font-size: 13px;
+      padding: 7px 14px;
+      border: none;
+      border-radius: 4px;
+      background: #1a73e8;
+      color: #fff;
+      cursor: pointer;
+    }
+    button:hover { background: #1765cc; }
+    .hint { color: #5f6368; font-size: 12px; margin-top: 10px; }
+  </style>
+</head>
+<body>
+  <h1>Duplicate Tab — Shortcut</h1>
+  <div class="row">
+    Current shortcut: <kbd id="current">not set</kbd>
+  </div>
+  <button id="edit">Change shortcut…</button>
+  <p class="hint">
+    Chrome only allows shortcuts to be changed on its own settings page.
+    The button above takes you straight there — find "Duplicate Tab" and
+    click the pencil icon to record any combination you like.
+  </p>
+  <p class="hint" style="margin-top: 16px; font-style: italic;">Made just for Ollie.</p>
+  <script src="options.js"></script>
+</body>
+</html>
