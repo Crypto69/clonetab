@@ -1,4 +1,4 @@
-# Duplicate Tab
+# CloneTab
 
 A minimal Chrome extension that duplicates the current tab — via a toolbar button or a keyboard shortcut.
 
@@ -28,7 +28,7 @@ The icon appears in the toolbar. You may need to pin it via the puzzle-piece men
 Chrome only allows extension shortcuts to be edited on its own settings page. Either:
 
 - Open the extension's **Options** (right-click the icon → Options) and click **Change shortcut…**, or
-- Go to `chrome://extensions/shortcuts` directly and find **Duplicate Tab**.
+- Go to `chrome://extensions/shortcuts` directly and find **CloneTab**.
 
 If the default combination is already claimed by another extension, Chrome leaves the shortcut unset — the options page will show `not set`. Assign a free combination there.
 

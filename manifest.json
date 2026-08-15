@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
-  "name": "Duplicate Tab",
-  "version": "1.2",
+  "name": "CloneTab",
+  "version": "1.0.0",
   "description": "Duplicate the current tab via toolbar button or keyboard shortcut.",
   "background": {
     "service_worker": "background.js"
