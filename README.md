@@ -57,6 +57,9 @@ async function duplicateCurrentTab() {
 | `options.js` | Reads the active shortcut, links to Chrome's settings |
 | `icons/` | 16/32/48/128px toolbar and store icons |
 
+`images/` holds raw screenshot captures and `store-assets/` the 1280×800 versions used
+on the Chrome Web Store listing. Neither ships in the packaged extension.
+
 ## Known limitations
 
 - Chrome does not permit extensions to act on internal pages, so duplicating a `chrome://` tab or the Web Store will silently do nothing.
